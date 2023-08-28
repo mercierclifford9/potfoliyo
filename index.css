@@ -343,19 +343,27 @@ nav>.nav_2>ul{
    
 }
 
-@media(max-width:360px){
+@media(max-width:400px){
     .text >.first_part{
-        font-size: 20px;
+        font-size: 18px;
         
     }
     .text>.second_part{
-        font-size: 45px;
+        font-size: 40px;
     }
     .text>.third_part{
-        font-size: 45px;
+        font-size: 40px;
     }
     .text>.fourth_part{
         font-size: 12px;
         
+    }
+    .nav_2{
+        visibility: hidden;
+        display: none;
+    }
+    .box-tel{
+        display: block;
+        width: 60%;
     }
 }
