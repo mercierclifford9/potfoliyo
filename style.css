@@ -82,7 +82,7 @@ nav>.nav_2>ul{
 display: flex;
 justify-content: center;
 align-items: center;
-height: 1200px;
+height: 1700px;
 
 background-color: rgb(41, 41, 41);
 color: #fff;
@@ -345,13 +345,13 @@ p{
         width: 95%;
     }
     footer{
-        font-size: 15px;
+        height: 1700px;
     }
-    footer>.second{
-        font-size: 11px;
-    }
+
 }
+
 
 /*-----------------------------------------------------------------------------------------------------------
 */
+
 
