@@ -343,19 +343,19 @@ nav>.nav_2>ul{
    
 }
 
-@media(max-width:500px){
+@media(max-width:360px){
     .text >.first_part{
         font-size: 18px;
         
     }
     .text>.second_part{
-        font-size: 40px;
+        font-size: 35px;
     }
     .text>.third_part{
-        font-size: 40px;
+        font-size: 35px;
     }
     .text>.fourth_part{
-        font-size: 12px;
+        font-size: 10px;
         
     }
     .nav_2{
