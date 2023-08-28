@@ -345,17 +345,17 @@ nav>.nav_2>ul{
 
 @media(max-width:360px){
     .text >.first_part{
-        font-size: 18px;
+        font-size: 12px;
         
     }
     .text>.second_part{
-        font-size: 30px;
+        font-size: 20px;
     }
     .text>.third_part{
-        font-size: 30px;
+        font-size: 20px;
     }
     .text>.fourth_part{
-        font-size: 10px;
+        font-size: 8px;
         
     }
     .nav_2{
