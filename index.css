@@ -343,7 +343,7 @@ nav>.nav_2>ul{
    
 }
 
-@media(max-width:400px){
+@media(max-width:500px){
     .text >.first_part{
         font-size: 18px;
         
