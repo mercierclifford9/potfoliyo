@@ -265,17 +265,17 @@ nav>.nav_2>ul{
 }
 @media(max-width:767px) AND (min-width:650px){
     .text >.first_part{
-        font-size: 26px;
+        font-size: 23px;
         
     }
     .text>.second_part{
-        font-size: 50px;
+        font-size: 45px;
     }
     .text>.third_part{
-        font-size: 50px;
+        font-size: 45px;
     }
     .text>.fourth_part{
-        font-size: 14px;
+        font-size: 12px;
         
     }
     .nav_2{
@@ -294,10 +294,10 @@ nav>.nav_2>ul{
         
     }
     .text>.second_part{
-        font-size: 45px;
+        font-size: 42px;
     }
     .text>.third_part{
-        font-size: 45px;
+        font-size: 42px;
     }
     .text>.fourth_part{
         font-size: 14px;
