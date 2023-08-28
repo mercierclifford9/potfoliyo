@@ -26,6 +26,66 @@ header>div{
     height: 20px;
     /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); */
 }
+.menu_profil{
+    display: block;
+    width: 40px;
+    padding-left: 5%;
+    position: relative;
+}
+.menu_profil{
+    position: relative;
+    display: inline-block;
+}
+.menu_profil>.profil{
+    cursor: pointer;
+}
+.menu_profil>.liste {
+    display: none;
+    position: absolute;
+    list-style: none; 
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    width: 100px;
+    height: 120px;
+    
+}
+
+.box-tel{
+    display: none;
+    width: 30%;
+    margin-top: 38px;
+    margin-left: 100px;
+}
+.liste{
+    margin-top: 10px;
+    align-self: flex-end;
+}
+.liste>li:hover{
+    background-color: #000;
+
+}
+.menu_profil>.liste>li>a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+
+}
+.menu_profil>.liste>li>a:hover{
+    color: rgb(157, 248, 96);
+}
+.menu_profil:hover .liste{
+    display: block;
+}
+.menu_profil:hover .icon{
+    translate: rotate(45%);
+}
+.menu_profil>ul>li{
+padding-bottom: 10px;
+}
+
 nav{
     height: 70px;
     color: #fff;
@@ -40,13 +100,14 @@ nav>.nav_1>img{
     border-radius: 50px;
     margin-left: 5%;
     vertical-align: middle;
+
 }
 
 nav>.nav_1{
-    width: 40%;
+    width: 70%;
 }
 nav>.nav_2{
-    width: 60%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
    
@@ -75,6 +136,7 @@ nav>.nav_2>ul{
 .nav_2>ul>li{
     padding: 10px;
 }
+
 
 
 footer{
@@ -243,6 +305,14 @@ button{
     footer>.second{
         font-size: 12px;
     }
+    .nav_2{
+        visibility: hidden;
+        display: none;
+    }
+    .box-tel{
+        display: block;
+        width: 60%;
+    }
   
     
 
@@ -262,6 +332,14 @@ button{
         h2{
             font-size: 23px;
         }
+        .nav_2{
+            visibility: hidden;
+            display: none;
+        }
+        .box-tel{
+            display: block;
+            width: 60%;
+        }
   
 }
 @media(max-width:650px) AND (min-width:500px){
@@ -277,6 +355,14 @@ button{
        }
         h2{
             font-size: 21px;
+        }
+        .nav_2{
+            visibility: hidden;
+            display: none;
+        }
+        .box-tel{
+            display: block;
+            width: 60%;
         }
 
    
@@ -301,6 +387,14 @@ button{
     }
     footer>.second{
         font-size: 11px;
+    }
+    .nav_2{
+        visibility: hidden;
+        display: none;
+    }
+    .box-tel{
+        display: block;
+        width: 60%;
     }
 }
 
